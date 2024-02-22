@@ -1,0 +1,11 @@
+#education {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+    #education {
+        height: auto;
+        padding: 20px;
+    }
+}
