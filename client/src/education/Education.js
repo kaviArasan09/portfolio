@@ -25,7 +25,7 @@ function Education() {
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
-                    date="2023 - present"
+                    date="2019-2022"
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
@@ -33,13 +33,13 @@ function Education() {
                     icon={<SchoolIcon />}
                     >
                 <h3>College :</h3>
-                <h2>PMT Arts and Science College</h2>
+                <h2>Government Arts and Science College</h2>
                 <h2>Bsc Computer Science</h2>
-                <h2>Usilampatti, Madurai</h2>
+                <h2>Vedaranyam</h2>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
-                    date="2021-2023"
+                    date="2017-2019"
                     className="vertical-timeline-element--education"
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black'}}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
@@ -48,7 +48,7 @@ function Education() {
                     >
             <h3>School 11th & 12th :</h3>
             <h2>Government HighSchool</h2>
-            <h2>Eriyodu, Dindigul</h2>
+            <h2>Thamarankottai</h2>
             </VerticalTimelineElement>
 
         </VerticalTimeline>

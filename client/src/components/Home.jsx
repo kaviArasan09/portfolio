@@ -5,11 +5,10 @@ function Home() {
     return (
     <div>
         <div className='home'>
-            <h1>Hai, I am VISHVA </h1>
+            <h1>Hai, I am KAVIYARASAN </h1>
             <br/>
             <br/>
-            <br/>
-            <h3>I am a Web Developer</h3>
+            <h3>I`m` a passionate and motivated web developer, I am dedicated to creating engaging, user-friendly websites.</h3>
     </div>
     <Skills/>
     </div>

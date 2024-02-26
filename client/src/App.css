@@ -5,7 +5,7 @@
 }
 
 .home {
-  background-color: rgb(70, 70, 243);
+  background-color: rgb(75, 75, 143);
   font-family: serif;
   display: flex;
   justify-content: center;
@@ -17,6 +17,7 @@
 .home h1 {
   color: rgb(221, 134, 20);
   font-size: 100px;
+  font-family:sans-serif;
 }
 
 .home h3 {

@@ -1,53 +1,48 @@
-import React from "react";
-import "./Project.css";
+import React from 'react';
+import './Project.css'
 
-const projectDetails = [
+const projectsData = [
   {
-    id: 1,
-    title: "Project 1",
-    description: "Description of Project 1",
-    imagelink:require('./images/p1.png'),
-    projectlink:"",
+    title: 'Project 1',
+    description: 'Student Data Management System',
+    imageUrl: require('./CRUD.jpeg'),
+    projectLink: 'https://github.com/kaviArasan09/KAVI-MERN-CRUD',
   },
   {
-    id: 2,
-    title: "Project 2",
-    description: "Description of Project 2",
-    imagelink:require('./images/p2.jpeg'),
-    projectlink:"",
+    title: 'Project 2',
+    description: '"Todo" task application',
+    imageUrl: require('./Todo.webp'),
+    projectLink: 'https://github.com/kaviArasan09/Todo_app_JS.git',
   },
   {
-    id: 3,
-    title: "Project 3",
-    description: "Description of Project 3",
-    imagelink:require('./images/project3.jpeg'),
-    projectlink:"",
-  },
-  {
-    id: 4,
-    title: "Project 4",
-    description: "Description of Project 4",
-    imagelink:require('./images/project4.png'),
-    projectlink:"",
+    title: 'Project 3',
+    description: 'Weather App',
+    imageUrl: require('./weather.png'),
+    projectLink: 'https://github.com/kaviArasan09/Weather_app.git',
   },
 ];
 
-export function Project() {
+const Project = () => {
   return (
-    <div id="projects">
-      <h1>VISHVA K</h1>
-      <div className="project-list">
-        {projectDetails.map((project) => (
-          <div key={project.id} className="project">
+    <div className='main-container'>
+      <h2>Projects</h2>
+      <div className='projects-container'>
+        {projectsData.map((project, index) => (
+          <div key={index} className='project-item'>
             <h2>{project.title}</h2>
             <p>{project.description}</p>
-            <div  className="image">
-            <img src={project.imagelink} alt={project.title} id="img"></img>
-            </div>
-            <a href={project.projectlink}><h2>Github Link</h2></a>
+            <img className='img' src={project.imageUrl} alt={project.title} style={{ maxWidth: '30%' }} />
+            <p>
+              <a href={project.projectLink}>
+                View Project
+              </a>
+            </p>
+            <hr />
           </div>
         ))}
       </div>
     </div>
   );
-}
+};
+
+export default Project;

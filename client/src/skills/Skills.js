@@ -14,13 +14,11 @@ export function Skills() {
       </ul>
       <ul className="skills-list">
         <h2>Backend :</h2>
-        <li>React.js</li>
         <li>Node.js</li>
         <li>MongoDB</li>
       </ul>
       <ul className="skills-list">
         <h2>Additional Skills :</h2>
-        <li>Git & GitHub</li>
         <li>Problem Solving</li>
         <li>Python</li>
       </ul>

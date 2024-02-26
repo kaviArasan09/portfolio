@@ -2,13 +2,13 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
 import Education from './education/Education.js';
 import { Footer } from "./components/Footer.js";
-import { Header } from "./components/Header.js";
+import  {Header}  from "./components/Header.js";
 import Home from './components/Home.jsx';
-import { Project } from './projects/Project.js';
+import  Project  from './projects/Project.js';
 import { Skills } from './skills/Skills.js';
 import About from './about/About.js';
 
-function App() {
+function App() { 
   return (
     <div>
       <Router>

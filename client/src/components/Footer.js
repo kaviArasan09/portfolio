@@ -12,7 +12,7 @@ export function Footer() {
                 <a href="https://www.instagram.com/">
                     <InstagramIcon sx={{ fontSize: 35,color:"red"}}/>
                 </a>
-                <a href="https://www.youtube.com/">
+                <a href="https://www.youtube.com/channel/UCmGpVCSVxUwfOMnfrBs9d1g">
                     <YoutubeIcon sx={{ fontSize: 40,color:"red" }}/>
                 </a>
                 <a href="https://www.facebook.com/">
